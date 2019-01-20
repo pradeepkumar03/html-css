@@ -2,12 +2,34 @@
     <body>
         <h2>HTML Forms</h2>
         <form action="/www.w3shools.com">
+            <fieldset>
+            <legend>personal information</legend>
         First Nmame:<br>
-    <input type="text" name="firstname" value="Pradeep"
+    <input type="text" name="firstname" value="Pradeep">
 <br>
-Last Name:
+Last Name:<br>
 <input type="text" name="lastname" value="Kumar"><br><br>
-<input type="submit" value="submit">
+<input type="submit" value="submit"><br></fieldset>
+<h2>Gender</h2>
+<input type="radio" name="gender" value="male">Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="other">Other
+<h2>State</h2>
+<select name="state">
+    <option value="Tamilnadu">Tamilnadu</option>
+    <option value="Andhra">Andhra</option>
+    <option value="karnataka">Karnataka</option></select><br><br>
+    <input type="submit">
+    <h2>profession</h2>
+    <input type="checkbox" name="profession1" value="student">i am a student<br>
+    <input type="checkbox" name="profession2" value="teacher">i am a teacher<br><br>
+    <input type="submit">
+    birthday
+    <input type="date" name="bday">
+    <input type="submit">
+
 </form>
+<input type="text" name="lname" form="form1">
+<input type="text" name="firstname" placeholder="firstname">
     </body>
 </html>
